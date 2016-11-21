@@ -1,19 +1,13 @@
 # stop-the-bullshit #
 
-Blocks websites that publish fake news:
+A chrome extension that prevents you from possibly changing your political opinion.
 
-![Screenshot of Stop the Bullshit](/img/stop-the-bullshit-screen.png?raw=true)
+[demo](https://www.youtube.com/watch?v=PJgiOOGpytE)
 
-Hides their posts on Facebook:
 
-![Video of Stop the Bullshit](/img/stop-the-bullshit-video.gif?raw=true)
+#### Original Author 
 
-Also includes a [clustering analysis](discriminating-fake-news-from-real-news.ipynb)
-that could lead to an algorithm to automatically detect Fake News.
-
-## Author ##
-
-Jacopo Notarstefano ([@Jaconotar](https://twitter.com/Jaconotar))
+Jacopo Notarstefano 
 
 ## License ##
 
