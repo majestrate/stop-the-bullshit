@@ -9,13 +9,7 @@
     <link rel="stylesheet" href="css/blocked.css">
   </head>
   <body>
-    <script>
-      var num_sounds = 3;
-      var n = Math.floor(Math.random() * 100) % num_sounds;
-      var a = document.createElement("audio");
-      a.src = "img/sound"+n+".ogg";
-      a.play();
-    </script>
+    <audio src="img/sound0.ogg" autoplay></audio>
     <div class="container">
       <div class="jumbotron">
         <h1><i class="fa fa-ban text-danger"></i> OH NO!</h1>
@@ -44,6 +38,9 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1 action">
               <h2>What Can I Do?</h2>
+              <p class="lead">
+                Double down on your bullshit.
+              </p>
               <p class="lead">
                 Blog about it on <a href="https://buzzfeed.com">buzzfeed</a>.
               </p>
