@@ -34,13 +34,8 @@ $(document).ready(function () {
 
         if (blockedURLs.has(cleanURL)) {
           var $blockedPost = $(this).closest('.userContentWrapper');
-
           $blockedPost.fadeOut(400, function () {
-            $blockedPost.html('<p class="suggestion"> \
-              This user posted something which is probably false. Inform them \
-              that <b>they are helping a scammer</b> reach more people, and \
-              recommend them to <a href="https://goo.gl/W3i1Jj">install \
-              StopTheBullshit</a>.</p>');
+            $blockedPost.html('<p class="suggestion">This post was removed to protect your political views from change</p>');
             $blockedPost.fadeIn();
           });
         }

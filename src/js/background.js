@@ -3,7 +3,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     var blockedUrl = encodeURIComponent(details.url),
       templateUrl = chrome.extension.getURL('src/blocked.html'),
       redirectUrl = templateUrl + '?url=' + blockedUrl;
-
+    
     return {'redirectUrl': redirectUrl};
   },
   {
@@ -32,6 +32,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       '*://*.usconservativetoday.com/*',
       '*://*.worldnewsdailyreport.com/*',
       '*://*.worldpoliticus.com/*',
+      '*://*.infowars.com/*',
     ],
     'types': ['main_frame'],
   },
